@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Survey Form</title>
+ 
+   
+</head>
+<body>
+
+  
+    <h2>Survey Form</h2>
+
+ 
+    <section>
+      <h3>Customer Information</h3>
+      <label for="customerName">Customer Name:</label>
+      <input type="text" id="customerName" name="customerName" required>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required>
+
+      <label for="zip">ZIP Code:</label>
+      <input type="text" id="zip" name="zip" required>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="nigeria"> Nigeria</option>
+        <option value="france"> France</option>
+      </select>
+
+      <label for="contact">Contact:</label>
+      <input type="tel" id="contact" name="contact" required>
+    </section>
+
+    
+    <section>
+      <h3>Gender</h3>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </section>
+
+    <section>
+      <h3>Ratings</h3>
+
+      
+      <label for="rating1">Category 1:</label>
+      <select id="rating1" name="rating1">
+        <option value="bad">Bad</option>
+        <option value="good">Good</option>
+        <option value="excellent">Excellent</option>
+      </select>
+
+      
+    </section>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
